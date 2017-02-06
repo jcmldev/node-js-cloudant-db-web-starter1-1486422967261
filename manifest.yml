@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 384M
+  instances: 1
+  domain: mybluemix.net
+  name: node-js-cloudant-db-web-starter1
+  host: node-js-cloudant-db-web-starter1
+  disk_quota: 1024M
+  services:
+  - node-js-cloudant-db-web-starter1-cloudantNoSQLDB
+  - availability-monitoring-auto
